@@ -1,0 +1,190 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+    color: #333333;
+}
+
+body {
+    width: 1200px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+header {
+    height: 150px;
+    width: 1200px;
+}
+
+#top {
+    height: 150px;
+    width: 1200px;
+}
+
+#logo {
+    float: left;
+    height: 150px;
+    width: 200px;
+}
+
+#logo img {
+    float: left;
+    height: 130px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#main_name {
+    float: left;
+    height: 130px;
+    width: 800px;
+    text-align: center;
+    font-size:  60px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+#top_light_menu {
+    float: right;
+    height: 100px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.article_header {
+    width: 1200px;
+    height: 250px;
+}
+
+.banner {
+    width: 1200px;
+    height: 220px;
+    margin-top: 30px;
+}
+
+.banner img {
+    width: 1100px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.article_main {
+    width: 1100px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.navi {
+    width: 1100px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.navi>li {
+    float: left;
+}
+
+.navi>li>a {
+    height: 40px;
+    line-height: 40px;
+    width: 350px;
+    font-weight: bold;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.navi_sub {
+    width: 350px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+.navi_sub>li>a {
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    color: darkslategrey;
+    background-color: mediumaquamarine;
+    text-align: center;
+}
+
+.navi_sub>li>a:hover {
+    background-color: lightskyblue;
+}
+
+.article_footer {
+    float: left;
+    height: 600px;
+    width: 1100px;
+    text-align: center;
+    margin: 20px;
+}
+
+.b_products_1 {
+    margin: 20px;
+}
+
+.b_products_1_list {
+    margin: 20px;
+}
+
+.b_products_1_list>li {
+    float: left;
+    margin: 20px;
+}
+
+.b_products_1_list>li>img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.b_products_2 {
+    margin: 20px;
+}
+
+.b_products_2_list {
+    margin: 20px;
+}
+
+.b_products_2_list>li {
+    float: left;
+    margin: 20px;
+}
+
+.b_products_2_list>li>img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.b_products_3 {
+    margin: 20px;
+}
+
+.b_products_3_list {
+    margin: 20px;
+}
+
+.b_products_3_list>li {
+    float: right;
+    margin: 20px;
+}
+
+.b_products_3_list>li>img {
+    float: right;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
