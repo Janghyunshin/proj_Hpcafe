@@ -7,7 +7,6 @@
 
 
 body {
-    width: 1519px;
     padding: 0;
     margin: 0;
     border: 0;
@@ -80,7 +79,7 @@ main {
 }
 
 footer {
-    height: 165px;
+    height: 170px;
     margin-top: 30px;
     background-color: black;
     color: #ffffff;
@@ -92,8 +91,8 @@ footer {
 }
 
 .footer_left img{
-    height: 165px;
-    width: 165px;
+    height: 170px;
+    width: 170px;
 }
 
 .footer_center {
